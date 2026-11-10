@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Style.css">
+    <title>RestyResurant</title>
+</head>
+<body>
+    <header>
+        <nav class="Navbar">
+            <div class="navlogo">
+                <h2>RestyResturant</h2>
+            </div>
+            <div class="navlinks">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#waitlist">Waitlist</a></li>
+                </ul>
+            </div>
+            <div class="navbutton">
+                <a href="#waitlist">Waitlist</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Your Experience Awaits</h1>
+            <p>From local fields to your plate. Experience a seasonal menu driven by fresh ingredients and a love for fine dining</p>
+            <div id="home-btns">
+                <a href="#testimonials">View Testimonials</a>
+                <a href="#waitlist">Reserve a Table</a>
+            </div>
+        </section>
+        <section id="about">
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem est culpa repellat vero magni velit vel sit fugiat, quia cum dignissimos. Tempore quam ad itaque voluptas commodi ipsum, perferendis error?</p>
+            <div id="abt-btns">
+                <a href="#about">Read More</a>
+            </div>
+        </section>
+        <section id="testimonials">
+            <h1>Testimonials</h1>
+            <div id="testimonial-conts">
+                <figure class="test-card">
+                    <blockquote>
+                        "The steak was cooked to absolute perfection, and the farm-to-table freshness really stands out. A phenomenal dining experience!"
+                    </blockquote>
+                    <figcaption>
+                        <img src="Img/fig1.jpg" alt="James Harrison">
+                        <cite>
+                            <strong>James Harrison</strong>
+                            <span>Food Critic</span>
+                        </cite>
+                    </figcaption>
+                </figure>
+                <figure class="test-card">
+                    <blockquote>
+                        "Incredible atmosphere, soft lighting, and even better service. It was the perfect spot for our anniversary dinner."
+                    </blockquote>
+                    <figcaption>
+                        <img src="Img/fig2.jpg" alt="Emily Vance">
+                        <cite>
+                            <strong>Emily Vance</strong>
+                            <span>Verified Guest</span>
+                        </cite>
+                    </figcaption>
+                </figure>
+                <figure class="test-card">
+                    <blockquote>
+                        "The best dining experience in town. Every single dish feels like a work of art. I'll definitely be joining the waitlist again."
+                    </blockquote>
+                    <figcaption>
+                        <img src="Img/fig3.jpg" alt="David Kingston">
+                        <cite>
+                            <strong>David Kingston</strong>
+                            <span>Weekly Regular</span>
+                        </cite>
+                    </figcaption>
+                </figure>
+                <figure class="test-card">
+                    <blockquote>
+                        "An exceptional wine pairing menu. The attention to detail from the staff made us feel incredibly welcome from the moment we walked in."
+                    </blockquote>
+                    <figcaption>
+                        <img src="Img/fig4.jpg" alt="Arthur Pendelton">
+                        <cite>
+                            <strong>Arthur Pendelton</strong>
+                            <span>Wine Enthusiast</span>
+                        </cite>
+                    </figcaption>
+                </figure>
+                <figure class="test-card">
+                    <blockquote>
+                        "The dessert options alone are worth the trip. Hands down the highest quality ingredients you can find in the city."
+                    </blockquote>
+                    <figcaption>
+                        <img src="Img/fig5.jpg" alt="Chef Clara Rossi">
+                        <cite>
+                            <strong>Chef Clara Rossi</strong>
+                            <span>Pastry Bloggerc</span>
+                        </cite>
+                    </figcaption>
+                </figure>
+                <figure class="test-card">
+                    <blockquote>
+                        "Wonderful vibes, cozy seating, and unforgettable flavors. RestyRestaurant has easily become my favorite weekend spot."
+                    </blockquote>
+                    <figcaption>
+                        <img src="Img/fig6.jpg" alt="Jessica Taylor">
+                        <cite>
+                            <strong>Jessica Taylor</strong>
+                            <span>Lifestyle Influencer</span>
+                        </cite>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+        <section id="waitlist">
+            <h1>Book a Table</h1>
+            <form id="waitlist-form">
+             <div class="form-group">
+                <label for="guest-name">Full Name</label>
+                <input type="text" id="guest-name" placeholder="John Doe" required>
+             </div>
+             <div class="form-group">
+                <label for="guest-email">Email Address</label>
+                <input type="email" id="guest-email" placeholder="johndoe@exmalple.com" required>
+             </div>
+             <div class="form-group">
+                <label for="party-size">Number of guests</label>
+                <input type="number" id="party-size" min="1" max="12" value="2" required>
+             </div>
+             <button type="submit" class="submit-btn">Reserve a Table</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
